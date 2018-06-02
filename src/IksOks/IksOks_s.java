@@ -56,14 +56,30 @@ public class IksOks_s extends javax.swing.JFrame {
          String b8 = jButton8.getText();
          String b9 = jButton9.getText();
          
+       
+         
          if( b1 == ("X") && b2 == ("X") && b3 == ("X") )
-         {
+            {
              JOptionPane.showMessageDialog(this, "Player X wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              xCount++;
              gameScore();
              jButton1.setBackground(Color.YELLOW);
              jButton2.setBackground(Color.YELLOW);
              jButton3.setBackground(Color.YELLOW);
+             
+             if(b5 !="X" && b5!="O")
+                 jButton5.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b7 !="X" && b7!="O")
+                 jButton7.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b9 !="X" && b9!="O")
+                 jButton9.setEnabled(false);
+             
              
          }
          if( b1 == ("X") && b4 == ("X") && b7 == ("X") )
@@ -75,6 +91,19 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton2.setBackground(Color.YELLOW);
              jButton3.setBackground(Color.YELLOW);
              
+             if(b5 !="X" && b5!="O")
+                 jButton5.setEnabled(false);
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b3 !="X" && b3!="O")
+                 jButton3.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b9 !="X" && b9!="O")
+                 jButton9.setEnabled(false);
+             
          }
          if( b4 == ("X") && b5 == ("X") && b6 == ("X") )
          {
@@ -85,6 +114,18 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton5.setBackground(Color.YELLOW);
              jButton6.setBackground(Color.YELLOW);
              
+             if(b1 !="X" && b1!="O")
+                 jButton1.setEnabled(false);
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
+             if(b3 !="X" && b3!="O")
+                 jButton3.setEnabled(false);
+             if(b7 !="X" && b7!="O")
+                 jButton7.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b9 !="X" && b9!="O")
+                 jButton9.setEnabled(false);
          }
          if( b7 == ("X") && b8 == ("X") && b9 == ("X") )
          {
@@ -94,6 +135,19 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton7.setBackground(Color.YELLOW);
              jButton8.setBackground(Color.YELLOW);
              jButton9.setBackground(Color.YELLOW);
+             
+             if(b5 !="X" && b5!="O")
+                 jButton5.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b3 !="X" && b3!="O")
+                 jButton3.setEnabled(false);
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
+             if(b1 !="X" && b1!="O")
+                 jButton1.setEnabled(false);
              
          }
          if( b2 == ("X") && b5 == ("X") && b8 == ("X") )
@@ -105,6 +159,18 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton5.setBackground(Color.YELLOW);
              jButton8.setBackground(Color.YELLOW);
              
+             if(b1 !="X" && b1!="O")
+                 jButton1.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b7 !="X" && b7!="O")
+                 jButton7.setEnabled(false);
+             if(b3 !="X" && b3!="O")
+                 jButton3.setEnabled(false);
+             if(b9 !="X" && b9!="O")
+                 jButton9.setEnabled(false);
          }
          if( b3 == ("X") && b6 == ("X") && b9 == ("X") )
          {
@@ -115,6 +181,18 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton6.setBackground(Color.YELLOW);
              jButton9.setBackground(Color.YELLOW);
              
+             if(b5 !="X" && b5!="O")
+                 jButton5.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b1 !="X" && b1!="O")
+                 jButton1.setEnabled(false);
+             if(b7 !="X" && b7!="O")
+                 jButton7.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
          }
          
          if( b1 == ("X") && b5 == ("X") && b9 == ("X") )
@@ -126,6 +204,19 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton5.setBackground(Color.YELLOW);
              jButton9.setBackground(Color.YELLOW);
              
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b7 !="X" && b7!="O")
+                 jButton7.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b3 !="X" && b3!="O")
+                 jButton3.setEnabled(false);
+             
          }
          if( b3 == ("X") && b5 == ("X") && b7 == ("X") )
          {
@@ -135,6 +226,18 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton3.setBackground(Color.YELLOW);
              jButton5.setBackground(Color.YELLOW);
              jButton7.setBackground(Color.YELLOW);
+             if(b1 !="X" && b1!="O")
+                 jButton1.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b9 !="X" && b9!="O")
+                 jButton9.setEnabled(false);
              
          }
          if( b1 == ("O") && b2 == ("O") && b3 == ("O") )
@@ -146,6 +249,19 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton2.setBackground(Color.RED);
              jButton3.setBackground(Color.RED);
              
+              if(b5 !="X" && b5!="O")
+                 jButton5.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b7 !="X" && b7!="O")
+                 jButton7.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b9 !="X" && b9!="O")
+                 jButton9.setEnabled(false);
+             
          }
          if( b1 == ("O") && b4 == ("O") && b7 == ("O") )
          {
@@ -155,6 +271,19 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton1.setBackground(Color.RED);
              jButton2.setBackground(Color.RED);
              jButton3.setBackground(Color.RED);
+             
+             if(b5 !="X" && b5!="O")
+                 jButton5.setEnabled(false);
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b3 !="X" && b3!="O")
+                 jButton3.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b9 !="X" && b9!="O")
+                 jButton9.setEnabled(false);
              
          }
          if( b4 == ("O") && b5 == ("O") && b6 == ("O") )
@@ -166,6 +295,19 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton5.setBackground(Color.RED);
              jButton6.setBackground(Color.RED);
              
+              if(b1 !="X" && b1!="O")
+                 jButton1.setEnabled(false);
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
+             if(b3 !="X" && b3!="O")
+                 jButton3.setEnabled(false);
+             if(b7 !="X" && b7!="O")
+                 jButton7.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b9 !="X" && b9!="O")
+                 jButton9.setEnabled(false);
+             
          }
          if( b7 == ("O") && b8 == ("O") && b9 == ("O") )
          {
@@ -175,6 +317,19 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton7.setBackground(Color.RED);
              jButton8.setBackground(Color.RED);
              jButton9.setBackground(Color.RED);
+             
+             if(b5 !="X" && b5!="O")
+                 jButton5.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b3 !="X" && b3!="O")
+                 jButton3.setEnabled(false);
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
+             if(b1 !="X" && b1!="O")
+                 jButton1.setEnabled(false);
              
          }
          if( b2 == ("O") && b5 == ("O") && b8 == ("O") )
@@ -186,6 +341,19 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton5.setBackground(Color.RED);
              jButton8.setBackground(Color.RED);
              
+              if(b1 !="X" && b1!="O")
+                 jButton1.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b7 !="X" && b7!="O")
+                 jButton7.setEnabled(false);
+             if(b3 !="X" && b3!="O")
+                 jButton3.setEnabled(false);
+             if(b9 !="X" && b9!="O")
+                 jButton9.setEnabled(false);
+             
          }
          if( b3 == ("O") && b6 == ("O") && b9 == ("O") )
          {
@@ -195,6 +363,19 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton3.setBackground(Color.RED);
              jButton6.setBackground(Color.RED);
              jButton9.setBackground(Color.RED);
+             
+              if(b5 !="X" && b5!="O")
+                 jButton5.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b1 !="X" && b1!="O")
+                 jButton1.setEnabled(false);
+             if(b7 !="X" && b7!="O")
+                 jButton7.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
              
          }
          
@@ -207,6 +388,19 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton5.setBackground(Color.RED);
              jButton9.setBackground(Color.RED);
              
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b7 !="X" && b7!="O")
+                 jButton7.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b3 !="X" && b3!="O")
+                 jButton3.setEnabled(false);
+             
          }
          if( b3 == ("O") && b5 == ("O") && b7 == ("O") )
          {
@@ -217,7 +411,23 @@ public class IksOks_s extends javax.swing.JFrame {
              jButton5.setBackground(Color.RED);
              jButton7.setBackground(Color.RED);
              
+             if(b1 !="X" && b1!="O")
+                 jButton1.setEnabled(false);
+             if(b4 !="X" && b4!="O")
+                 jButton4.setEnabled(false);
+             if(b6 !="X" && b6!="O")
+                 jButton6.setEnabled(false);
+             if(b2 !="X" && b2!="O")
+                 jButton2.setEnabled(false);
+             if(b8 !="X" && b8!="O")
+                 jButton8.setEnabled(false);
+             if(b9 !="X" && b9!="O")
+                 jButton9.setEnabled(false);
+             
          }
+        
+         if((b1 == "X" || b1 == "O") && (b2 == "X"  || b2 == "O")  && (b3=="X"  || b3=="O") && (b4=="X"  || b4=="O")  && (b5=="X"  || b5=="O") && (b6=="X"  || b6=="O") && (b7=="X"  || b7=="O") && (b8=="X"  || b8=="O") && (b9=="X"  || b9=="O"))
+             JOptionPane.showMessageDialog(this, " Draw " , "X-O", JOptionPane.INFORMATION_MESSAGE);
      }
     /**
      * This method is called from within the constructor to initialize the form.
@@ -321,6 +531,9 @@ public class IksOks_s extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jLabel2.setText("Player X:");
+        jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jLabel2.setMaximumSize(new java.awt.Dimension(145, 58));
+        jLabel2.setMinimumSize(new java.awt.Dimension(145, 58));
         jPanel6.add(jLabel2, java.awt.BorderLayout.CENTER);
 
         jPanel2.add(jPanel6);
@@ -379,8 +592,11 @@ public class IksOks_s extends javax.swing.JFrame {
         jPanel11.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jPanel11.setLayout(new java.awt.BorderLayout());
 
+        jLabel4.setBackground(new java.awt.Color(150, 240, 240));
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jLabel4.setText("Player O:");
+        jLabel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jLabel4.setPreferredSize(new java.awt.Dimension(145, 58));
         jPanel11.add(jLabel4, java.awt.BorderLayout.CENTER);
 
         jPanel2.add(jPanel11);
@@ -469,17 +685,17 @@ public class IksOks_s extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    private JFrame frame;
+
     private void jbtnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnExitActionPerformed
         frame = new JFrame ("Exit");
-        if(JOptionPane.showConfirmDialog(frame , " Confrim if you want to exit", "X-O" , JOptionPane.YES_NO_OPTION)==JOptionPane.YES_NO_OPTION);
+        if(JOptionPane.showConfirmDialog(frame , " Confrim if you want to exit", "X-O" , JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION);
         {
             System.exit(0);
-        }    
+        }
     }//GEN-LAST:event_jbtnExitActionPerformed
 
     private void JbtnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JbtnResetActionPerformed
-        
+
         jButton1.setText(null);
         jButton2.setText(null);
         jButton3.setText(null);
@@ -489,7 +705,7 @@ public class IksOks_s extends javax.swing.JFrame {
         jButton7.setText(null);
         jButton8.setText(null);
         jButton9.setText(null);
-        
+
         jButton1.setBackground(Color.LIGHT_GRAY);
         jButton2.setBackground(Color.LIGHT_GRAY);
         jButton3.setBackground(Color.LIGHT_GRAY);
@@ -499,139 +715,158 @@ public class IksOks_s extends javax.swing.JFrame {
         jButton7.setBackground(Color.LIGHT_GRAY);
         jButton8.setBackground(Color.LIGHT_GRAY);
         jButton9.setBackground(Color.LIGHT_GRAY);
-        
+
+        jButton1.setEnabled(true);
+        jButton2.setEnabled(true);
+        jButton3.setEnabled(true);
+        jButton4.setEnabled(true);
+        jButton5.setEnabled(true);
+        jButton6.setEnabled(true);
+        jButton7.setEnabled(true);
+        jButton8.setEnabled(true);
+        jButton9.setEnabled(true);
     }//GEN-LAST:event_JbtnResetActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        
-        jButton1.setText(startGame);
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        jButton9.setText(startGame);
         if(startGame.equalsIgnoreCase("X"))
-         {
-             jButton1.setForeground(Color.GREEN);
-         }
-         else
-         {
-             jButton1.setForeground(Color.BLUE);
-         }
-        choose_a_Player();
-        
-        winningGame();
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-         
-        jButton2.setText(startGame);
-         
-        if(startGame.equalsIgnoreCase("X"))
-         {
-             jButton2.setForeground(Color.GREEN);
-         }
-         else
-         {
-             jButton2.setForeground(Color.BLUE);
-         }
+        {
+            jButton9.setForeground(Color.GREEN);
+        }
+        else
+        {
+            jButton9.setForeground(Color.BLUE);
+        }
         choose_a_Player();
         winningGame();
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-         jButton3.setText(startGame);
-        if(startGame.equalsIgnoreCase("X"))
-         {
-             jButton3.setForeground(Color.GREEN);
-         }
-         else
-         {
-             jButton3.setForeground(Color.BLUE);
-         }
-        choose_a_Player();
-        winningGame();
-    }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-         jButton4.setText(startGame);
-        if(startGame.equalsIgnoreCase("X"))
-         {
-             jButton4.setForeground(Color.GREEN);
-         }
-         else
-         {
-             jButton4.setForeground(Color.BLUE);
-         }
-        choose_a_Player();
-        winningGame();
-    }//GEN-LAST:event_jButton4ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-         jButton5.setText(startGame);
-        if(startGame.equalsIgnoreCase("X"))
-         {
-             jButton5.setForeground(Color.GREEN);
-         }
-         else
-         {
-             jButton5.setForeground(Color.BLUE);
-         }
-        choose_a_Player();
-        winningGame();
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-         jButton6.setText(startGame);
-        if(startGame.equalsIgnoreCase("X"))
-         {
-             jButton6.setForeground(Color.GREEN);
-         }
-         else
-         {
-             jButton6.setForeground(Color.BLUE);
-         }
-        choose_a_Player();
-        winningGame();
-    }//GEN-LAST:event_jButton6ActionPerformed
-
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        jButton7.setText(startGame);
-        if(startGame.equalsIgnoreCase("X"))
-         {
-             jButton7.setForeground(Color.GREEN);
-         }
-         else
-         {
-             jButton7.setForeground(Color.BLUE);
-         }
-        choose_a_Player();
-        winningGame();
-    }//GEN-LAST:event_jButton7ActionPerformed
+        jButton9.setEnabled(false);
+    }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         jButton8.setText(startGame);
         if(startGame.equalsIgnoreCase("X"))
-         {
-             jButton8.setForeground(Color.GREEN);
-         }
-         else
-         {
-             jButton8.setForeground(Color.BLUE);
-         }
+        {
+            jButton8.setForeground(Color.GREEN);
+        }
+        else
+        {
+            jButton8.setForeground(Color.BLUE);
+        }
         choose_a_Player();
         winningGame();
+        jButton8.setEnabled(false);
     }//GEN-LAST:event_jButton8ActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-         jButton9.setText(startGame);
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        jButton7.setText(startGame);
         if(startGame.equalsIgnoreCase("X"))
-         {
-             jButton9.setForeground(Color.GREEN);
-         }
-         else
-         {
-             jButton9.setForeground(Color.BLUE);
-         }
+        {
+            jButton7.setForeground(Color.GREEN);
+        }
+        else
+        {
+            jButton7.setForeground(Color.BLUE);
+        }
         choose_a_Player();
         winningGame();
-    }//GEN-LAST:event_jButton9ActionPerformed
+        jButton7.setEnabled(false);
+    }//GEN-LAST:event_jButton7ActionPerformed
 
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        jButton6.setText(startGame);
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            jButton6.setForeground(Color.GREEN);
+        }
+        else
+        {
+            jButton6.setForeground(Color.BLUE);
+        }
+        choose_a_Player();
+        winningGame();
+        jButton6.setEnabled(false);
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+
+        jButton5.setText(startGame);
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            jButton5.setForeground(Color.GREEN);
+        }
+
+        else
+        {
+            jButton5.setForeground(Color.BLUE);
+        }
+        choose_a_Player();
+        winningGame();
+        jButton5.setEnabled(false);
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        jButton4.setText(startGame);
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            jButton4.setForeground(Color.GREEN);
+        }
+        else
+        {
+            jButton4.setForeground(Color.BLUE);
+        }
+        choose_a_Player();
+        winningGame();
+        jButton4.setEnabled(false);
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        jButton3.setText(startGame);
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            jButton3.setForeground(Color.GREEN);
+        }
+        else
+        {
+            jButton3.setForeground(Color.BLUE);
+        }
+        choose_a_Player();
+        winningGame();
+        jButton3.setEnabled(false);
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+
+        jButton2.setText(startGame);
+
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            jButton2.setForeground(Color.GREEN);
+        }
+        else
+        {
+            jButton2.setForeground(Color.BLUE);
+        }
+        choose_a_Player();
+        winningGame();
+        jButton2.setEnabled(false);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+
+        jButton1.setText(startGame);
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            jButton1.setForeground(Color.GREEN);
+        }
+        else
+        {
+            jButton1.setForeground(Color.BLUE);
+        }
+        choose_a_Player();
+        winningGame();
+        jButton1.setEnabled(false);
+    }//GEN-LAST:event_jButton1ActionPerformed
+    private JFrame frame;
     /**
      * @param args the command line arguments
      */
