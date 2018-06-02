@@ -688,10 +688,12 @@ public class IksOks_s extends javax.swing.JFrame {
 
     private void jbtnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnExitActionPerformed
         frame = new JFrame ("Exit");
-        if(JOptionPane.showConfirmDialog(frame , " Confrim if you want to exit", "X-O" , JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION);
+        if(JOptionPane.showConfirmDialog(frame , " Confrim if you want to exit", "X-O" ,
+                JOptionPane.YES_NO_OPTION)  ==  JOptionPane.YES_NO_OPTION)
         {
-            System.exit(0);
+            System.exit(0); 
         }
+        
     }//GEN-LAST:event_jbtnExitActionPerformed
 
     private void JbtnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JbtnResetActionPerformed
