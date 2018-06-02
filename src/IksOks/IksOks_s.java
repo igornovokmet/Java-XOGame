@@ -63,9 +63,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player X wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              xCount++;
              gameScore();
-             jButton1.setBackground(Color.YELLOW);
-             jButton2.setBackground(Color.YELLOW);
-             jButton3.setBackground(Color.YELLOW);
+             //jButton1.setBackground(Color.YELLOW);
+             //jButton2.setBackground(Color.YELLOW);
+             //jButton3.setBackground(Color.YELLOW);
              
              if(b5 !="X" && b5!="O")
                  jButton5.setEnabled(false);
@@ -87,9 +87,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player X wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              xCount++;
              gameScore();
-             jButton1.setBackground(Color.YELLOW);
-             jButton2.setBackground(Color.YELLOW);
-             jButton3.setBackground(Color.YELLOW);
+             //jButton1.setBackground(Color.YELLOW);
+             //jButton2.setBackground(Color.YELLOW);
+             //jButton3.setBackground(Color.YELLOW);
              
              if(b5 !="X" && b5!="O")
                  jButton5.setEnabled(false);
@@ -110,9 +110,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player X wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              xCount++;
              gameScore();
-             jButton4.setBackground(Color.YELLOW);
-             jButton5.setBackground(Color.YELLOW);
-             jButton6.setBackground(Color.YELLOW);
+            // jButton4.setBackground(Color.YELLOW);
+            // jButton5.setBackground(Color.YELLOW);
+             //jButton6.setBackground(Color.YELLOW);
              
              if(b1 !="X" && b1!="O")
                  jButton1.setEnabled(false);
@@ -132,9 +132,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player X wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              xCount++;
              gameScore();
-             jButton7.setBackground(Color.YELLOW);
-             jButton8.setBackground(Color.YELLOW);
-             jButton9.setBackground(Color.YELLOW);
+             //jButton7.setBackground(Color.YELLOW);
+             //jButton8.setBackground(Color.YELLOW);
+             //jButton9.setBackground(Color.YELLOW);
              
              if(b5 !="X" && b5!="O")
                  jButton5.setEnabled(false);
@@ -155,9 +155,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player X wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              xCount++;
              gameScore();
-             jButton2.setBackground(Color.YELLOW);
-             jButton5.setBackground(Color.YELLOW);
-             jButton8.setBackground(Color.YELLOW);
+            // jButton2.setBackground(Color.YELLOW);
+             //jButton5.setBackground(Color.YELLOW);
+             //jButton8.setBackground(Color.YELLOW);
              
              if(b1 !="X" && b1!="O")
                  jButton1.setEnabled(false);
@@ -177,9 +177,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player X wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              xCount++;
              gameScore();
-             jButton3.setBackground(Color.YELLOW);
-             jButton6.setBackground(Color.YELLOW);
-             jButton9.setBackground(Color.YELLOW);
+             //jButton3.setBackground(Color.YELLOW);
+             //jButton6.setBackground(Color.YELLOW);
+             //jButton9.setBackground(Color.YELLOW);
              
              if(b5 !="X" && b5!="O")
                  jButton5.setEnabled(false);
@@ -200,9 +200,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player X wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              xCount++;
              gameScore();
-             jButton1.setBackground(Color.YELLOW);
-             jButton5.setBackground(Color.YELLOW);
-             jButton9.setBackground(Color.YELLOW);
+             //jButton1.setBackground(Color.YELLOW);
+             //jButton5.setBackground(Color.YELLOW);
+             //jButton9.setBackground(Color.YELLOW);
              
              if(b2 !="X" && b2!="O")
                  jButton2.setEnabled(false);
@@ -223,9 +223,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player X wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              xCount++;
              gameScore();
-             jButton3.setBackground(Color.YELLOW);
-             jButton5.setBackground(Color.YELLOW);
-             jButton7.setBackground(Color.YELLOW);
+             //jButton3.setBackground(Color.YELLOW);
+             //jButton5.setBackground(Color.YELLOW);
+             //jButton7.setBackground(Color.YELLOW);
              if(b1 !="X" && b1!="O")
                  jButton1.setEnabled(false);
              if(b4 !="X" && b4!="O")
@@ -245,9 +245,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player O wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              oCount++;
              gameScore();
-             jButton1.setBackground(Color.RED);
-             jButton2.setBackground(Color.RED);
-             jButton3.setBackground(Color.RED);
+             //jButton1.setBackground(Color.RED);
+             //jButton2.setBackground(Color.RED);
+             //jButton3.setBackground(Color.RED);
              
               if(b5 !="X" && b5!="O")
                  jButton5.setEnabled(false);
@@ -268,9 +268,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player O wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              oCount++;
              gameScore();
-             jButton1.setBackground(Color.RED);
-             jButton2.setBackground(Color.RED);
-             jButton3.setBackground(Color.RED);
+             //jButton1.setBackground(Color.RED);
+             //jButton2.setBackground(Color.RED);
+             //jButton3.setBackground(Color.RED);
              
              if(b5 !="X" && b5!="O")
                  jButton5.setEnabled(false);
@@ -291,9 +291,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player O wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              oCount++;
              gameScore();
-             jButton4.setBackground(Color.RED);
-             jButton5.setBackground(Color.RED);
-             jButton6.setBackground(Color.RED);
+             //jButton4.setBackground(Color.RED);
+             //jButton5.setBackground(Color.RED);
+             //jButton6.setBackground(Color.RED);
              
               if(b1 !="X" && b1!="O")
                  jButton1.setEnabled(false);
@@ -314,9 +314,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player O wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              oCount++;
              gameScore();
-             jButton7.setBackground(Color.RED);
-             jButton8.setBackground(Color.RED);
-             jButton9.setBackground(Color.RED);
+             //jButton7.setBackground(Color.RED);
+             //jButton8.setBackground(Color.RED);
+             //jButton9.setBackground(Color.RED);
              
              if(b5 !="X" && b5!="O")
                  jButton5.setEnabled(false);
@@ -337,9 +337,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player O wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              oCount++;
              gameScore();
-             jButton2.setBackground(Color.RED);
-             jButton5.setBackground(Color.RED);
-             jButton8.setBackground(Color.RED);
+             //jButton2.setBackground(Color.RED);
+             //jButton5.setBackground(Color.RED);
+             //jButton8.setBackground(Color.RED);
              
               if(b1 !="X" && b1!="O")
                  jButton1.setEnabled(false);
@@ -360,9 +360,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player O wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              oCount++;
              gameScore();
-             jButton3.setBackground(Color.RED);
-             jButton6.setBackground(Color.RED);
-             jButton9.setBackground(Color.RED);
+             //jButton3.setBackground(Color.RED);
+             //jButton6.setBackground(Color.RED);
+             //jButton9.setBackground(Color.RED);
              
               if(b5 !="X" && b5!="O")
                  jButton5.setEnabled(false);
@@ -384,9 +384,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player O wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              oCount++;
              gameScore();
-             jButton1.setBackground(Color.RED);
-             jButton5.setBackground(Color.RED);
-             jButton9.setBackground(Color.RED);
+             //jButton1.setBackground(Color.RED);
+             //jButton5.setBackground(Color.RED);
+            // jButton9.setBackground(Color.RED);
              
              if(b2 !="X" && b2!="O")
                  jButton2.setEnabled(false);
@@ -407,9 +407,9 @@ public class IksOks_s extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(this, "Player O wins " , "X-O", JOptionPane.INFORMATION_MESSAGE);
              oCount++;
              gameScore();
-             jButton3.setBackground(Color.RED);
-             jButton5.setBackground(Color.RED);
-             jButton7.setBackground(Color.RED);
+             //jButton3.setBackground(Color.RED);
+             //jButton5.setBackground(Color.RED);
+             //jButton7.setBackground(Color.RED);
              
              if(b1 !="X" && b1!="O")
                  jButton1.setEnabled(false);
